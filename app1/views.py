@@ -9,4 +9,4 @@ def index(request):
 
 def demo(request):
     print('这是div分支上的代码')
-    return Ht
+    return HttpResponse('123')
