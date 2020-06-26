@@ -10,3 +10,6 @@ def index(request):
 def demo(request):
     print('这是div分支上的代码')
     return HttpResponse('123')
+
+def nnn(request):
+    return HttpResponse
