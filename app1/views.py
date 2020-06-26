@@ -6,3 +6,7 @@ from django.http import HttpResponse
 def index(request):
     print('这是第一个试图')
     return HttpResponse('Success')
+
+def demo(request):
+    print('这是div分支上的代码')
+    return Ht
